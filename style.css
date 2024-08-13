@@ -1,6 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    
+}
+body{
+    border: 2px solid red;
 }
 
 
@@ -64,10 +68,15 @@
 
 
 
+
+
+
+
    /* Banner section start here  */
 
 
 .Banner-section{
+
     background-image: url("./image/Rectangle 1.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,7 +94,6 @@
        padding: 36px;
        border-radius: 5px;
        text-align: center;
-    
        box-shadow: 2px 2px 2px 2px rgb(255, 233, 233);
 
     }
@@ -166,7 +174,7 @@
    
     padding: 39px;
     border: 1px solid black;
-   
+    
 
 
     & h4{
@@ -194,7 +202,7 @@
 
     & .Newbie-Friendly1{
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         align-items: center;
         text-align: center;
         gap: 50px;
@@ -255,6 +263,14 @@
     
 
 
+}
+
+
+
+.Favourite-section img{
+    width: 100%;
+
+    
 }
 
 
@@ -364,7 +380,7 @@ p.footer-pragraph {
 }
 /* responsice style */
 
-/* sm style style here */
+/* sm  style here */
 @media screen and (max-width:576px){
     .navBar-center ul {
     
@@ -416,8 +432,117 @@ p.footer-pragraph {
         color: #ffffff;
     }
 
-   
-   
+    
+    
+    .Navbermenu{
+        display: none;
+    }
+    
+
+    .Btn-section{
+        display: none;
+    }
+
+    .Newbie-Friendly1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        text-align: center;
+        gap: 50px;
+    }
+
+
+    
+
+.Paren-features{
+ 
+    margin-top: 59px;
+
+    & .Newbie-Friendly1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        text-align: center;
+        gap: 50px;
+    }
+
+    & .Newbie-Friendly1{
+        margin-top: 80px;
+    text-align: center;
+    margin-bottom: 20px;
+
+    }
+    
+    & p{
+        margin-top: 22px;
+
+    }
+
+     & .arrow{
+        justify-content: safe;
+        align-items: center;
+        display: flex;
+     }
+
+    & .right-ArrowKey{
+        margin-bottom: 10px;
+        margin-left: 82px;
+    }
+
+    & .features-box h4{
+        line-height: 45px;
+        margin-left: 95px;
+      
+    }
+
+
+    & .features-box a{
+        line-height: 60px;
+        color: black;
+
+    }
+
+
+    & .features-btn{
+        margin-top: 80px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+        
+    
+      & .features-btn button{
+        padding: 13px 24px ;
+        border: 2px solid black;
+        border-radius: 30px;
+        background: none;
+        text-transform: capitalize;
+        font-size: 14px;
+    }
+    
+
+
+}
+
+
+
+.Favourite-section img{
+    width: 100%;
+
+    
+}
+
+
+
+.Banner-section{
+
+    width: 80px;
+    height: auto;
+    background-color: red;
+    margin: auto;
+
+}
+    
+
 }
 
 
@@ -432,9 +557,7 @@ p.footer-pragraph {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
-       
         padding: 30px;
-       
         color: #ffffff;
     }
 
@@ -477,6 +600,104 @@ p.footer-pragraph {
         font-size: 40px;
     }
 
+    .Navbermenu{
+        display: none;
+    }
+
+    .Btn-section{
+        display: none;
+    }
+
+  
+  
+
+.Paren-features{
+ 
+    margin-top: 59px;
+
+    & .Newbie-Friendly1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        text-align: center;
+        gap: 50px;
+    }
+
+    & .Newbie-Friendly1{
+        margin-top: 80px;
+    text-align: center;
+    margin-bottom: 20px;
+
+    }
+    
+    & p{
+        margin-top: 22px;
+
+    }
+
+     & .arrow{
+        justify-content: safe;
+        align-items: center;
+        display: flex;
+     }
+
+    & .right-ArrowKey{
+        margin-bottom: 10px;
+        margin-left: 82px;
+    }
+
+    & .features-box h4{
+        line-height: 45px;
+        margin-left: 95px;
+      
+    }
+
+
+    & .features-box a{
+        line-height: 60px;
+        color: black;
+
+    }
+
+
+    & .features-btn{
+        margin-top: 80px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+        
+    
+      & .features-btn button{
+        padding: 13px 24px ;
+        border: 2px solid black;
+        border-radius: 30px;
+        background: none;
+        text-transform: capitalize;
+        font-size: 14px;
+    }
+    
+
+
+}
+
+
+
+.Favourite-section img{
+    width: 100%;
+
+    
+}
+
+    
+
+.Banner-section{
+    width: 250px;
+    height: auto;
+    background-color: red;
+    margin: auto;
+}
+
+    
 }
 
 
